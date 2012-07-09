@@ -1,0 +1,87 @@
+/*******************
+* CSS for TinyCMS Admin
+*******************/
+
+body {
+  background-color:#EAEAEA;
+  font-family:Verdana;
+  font-size:12px;
+  margin-top:80px;
+}
+
+img { border:0px; }
+
+#wrap {
+  width:750px;
+  margin:auto;
+}
+
+#box {
+  background-color:#ffffff;
+  padding:10px; 
+}
+
+#login_title {
+  font-size:23px;
+  margin-bottom:10px;
+  color:#808080;
+}
+
+#error {
+  padding:5px;
+  background-color:#FFBFBF;
+  border:1px dotted #FF6D6D;
+  margin-bottom:10px;
+}
+
+#success {
+  padding:5px;
+  background-color:#C4FFAA;
+  border:1px dotted #96C181;
+  margin-bottom:10px;
+}
+
+#footer {
+  color:#808080;
+  margin-top:5px;
+  overflow:auto;
+}
+
+a { color:#808080; text-decoration:none; }
+
+#title {
+  font-size:23px;
+  margin-bottom:10px;
+  color:#808080;
+}
+
+#left {
+  float:left;
+}
+
+#right {
+  float:right;
+}
+
+textarea {
+  width:99%;
+  min-height:500px;
+}
+
+/* Other */
+
+.listing {
+  padding:5px;
+  background-color:#DBDBDB;
+  border:1px dotted #B5B5B5;
+  margin-bottom:5px;
+}
+
+.listing a { color:#878787; }
+
+h2 {
+  padding-bottom:3px;
+  margin-top:0px;
+  border-bottom:1px dotted #C0C0C0;
+  color:#404040;
+}

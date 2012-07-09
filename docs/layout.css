@@ -1,0 +1,42 @@
+/*******************
+* CSS for TinyCMS Docs
+* Written by the one, the only, Jake Steele
+*******************/
+
+body {
+  background-color:#EAEAEA;
+  font-family:Verdana;
+  font-size:12px;
+  margin-top:80px;
+  color:#808080;
+}
+
+h3 {
+  color:#808080;
+  border-bottom:1px solid #EAEAEA;
+  padding-bottom:3px;
+  margin-bottom:0px;
+}
+
+
+img {
+  border:0px;
+}  
+
+a {
+  color:#808080;
+  border-bottom:1px dotted #A5A5A5;
+  text-decoration:none;
+}
+
+#wrap {
+  width:800px;
+  margin:auto;
+}
+
+#content {
+  float:left;
+  background-color:#ffffff;
+  padding:20px;
+  border-radius:5px;
+}

@@ -1,0 +1,65 @@
+/*******************
+* CSS for TinyCMS - Default layout
+*******************/
+
+body {
+  background-color:#EAEAEA;
+  font-family:Verdana;
+  font-size:12px;
+}
+
+#wrap {
+  width:800px;
+  margin:auto;
+}
+
+#header {
+  background-color:#6A94B1;
+  background-image:url('../img/header_bg.jpg');
+  background-repeat:repeat-x;
+  color:#ffffff;
+  padding:20px;
+  font-size:20px;
+}
+
+#nav_bar {
+  background-color:#4F83A8;
+  color:#ffffff;
+  padding:10px;
+}
+
+#nav_bar a { color:#ffffff; font-weight:bold; text-decoration:none; margin-right:15px; }
+
+#content {
+  background-color:#ffffff;
+  padding:10px;
+  color:#404040;
+}
+
+#footer {
+  background-color:#4F83A8;
+  color:#ffffff;
+  padding:10px;
+  overflow:auto;
+}
+
+#footer a { color:#ffffff; font-weight:bold; text-decoration:none; }
+
+/* Other */
+
+#left {
+  float:left;
+}
+
+#right {
+  float:right;
+}
+
+/* Titles & Classes */
+
+h2 {
+  padding-bottom:3px;
+  margin-top:0px;
+  border-bottom:1px dotted #C0C0C0;
+  color:#404040;
+}

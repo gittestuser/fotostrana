@@ -1,0 +1,11 @@
+<Files .htaccess>
+
+order allow,deny
+deny from all
+
+</Files>
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule admin/$ index.php?view=admin [QSA]
+Options -Indexes
